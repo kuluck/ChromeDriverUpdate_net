@@ -1,6 +1,9 @@
+## Usage
+
+```csharp
 try
 {
-    new ChromeDriverUpdate_net().Update(@"c:\path\to\chromedriver.exe");
+    new ChromeDriverUpdater().Update(@"c:\path\to\chromedriver.exe");
 }
 catch (Exception exc)
 {
