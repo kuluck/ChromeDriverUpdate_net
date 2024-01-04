@@ -13,7 +13,7 @@ This is code modified by adapting the contents of this source to the latest site
 ```csharp
 try
 {
-    new ChromeDriverUpdater().Update(@"c:\path\to\chromedriver.exe");
+    new ChromeDriverUpdate_net().Update(@"c:\path\to\chromedriver.exe");
 }
 catch (Exception exc)
 {
